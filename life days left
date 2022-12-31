@@ -1,0 +1,10 @@
+age = input("What is your current age? ")
+remainig_years=90-int(age)
+days=remainig_years*365
+weeks=remainig_years*52
+months=remainig_years*12
+print(f"you have {days}days,{weeks}weeks and {months}months left")
+
+output:-
+what is your current age? 56
+You have 12410 days, 1768 weeks, and 408 months left.
